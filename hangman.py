@@ -8,13 +8,13 @@ word = random.choice(words)
 
 guessed_letters = []
 wrong_guesses = 0
-max_wrong_guesses = 100
+max_wrong_guesses = 6
 
 print("================================")
 print("       WELCOME TO HANGMAN")
 print("================================")
 print("Guess the word one letter at a time.")
-print("You have 100 wrong guesses.")
+print("You have 6 wrong guesses.")
 
 while wrong_guesses < max_wrong_guesses:
 
